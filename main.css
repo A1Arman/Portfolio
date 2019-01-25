@@ -49,7 +49,18 @@ li {
     padding-right: 2.5%;
     list-style: none;
 }
-  
+a {
+    text-decoration: none;   
+}
+
+a:link {
+    color: #e98074;
+}
+
+a:hover {
+    color: #e85a4f;
+}
+
 header {
     padding: 12% 0;
 }
@@ -106,6 +117,10 @@ header {
     padding-left: 5%;
 }
 
+#portfolio-pic {
+    display: none;
+}
+
 #envelope, #linkedin, #github {
     width: 15%;
 }
@@ -131,7 +146,6 @@ header {
 
     .title {
         font-family: 'Vast Shadow', sans-serif;
-        text-align: center;
         min-height: 200px;
         padding: 0 2.5%;    
     }
@@ -171,6 +185,13 @@ header {
 
 }
 
-@media screen and (min-width: 700px) {
-
+@media screen and (min-width: 900px) {
+    #portfolio-pic {
+        display: block;
+        float: right;
+        width: 12.5em;
+        height: 17.5em;
+        margin-right: 7.5%;
+        border-radius: 5%;
+    }
 }
