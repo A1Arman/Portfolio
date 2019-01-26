@@ -24,6 +24,7 @@ h3 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: #e98074;
+    font-size: 1.75em;
 }
 
 h4 {
@@ -41,6 +42,7 @@ nav {
     right: 0;
     left: 0;
     background-color: #d8c3a5;
+    text-align: center;
 }
 
 li {
@@ -50,44 +52,42 @@ li {
     list-style: none;
 }
 a {
-    text-decoration: none;   
+    text-decoration: none; 
+    color: #e98074;  
 }
 
-a:link {
+a:link, #font-credit:link {
     color: #e98074;
 }
 
-a:hover {
+a:hover, #font-credit:hover {
     color: #e85a4f;
 }
 
-header {
-    padding: 12% 0;
-}
 
 .title {
     font-family: 'Vast Shadow', sans-serif;
-    margin-top: 10%;
+    margin-top: 12.5%;
     text-align: center;
     min-height: 200px;
     padding: 6% 0;
 }
 
 .contact {
-    margin-top: 15%;
+    margin-top: 10%;
     min-height: 200px;
-    padding: 6% 0;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .projects {
-    margin-top: 15%;
+    margin-top: 10%;
     min-height: 200px;
 }
 
 .bio {
-    margin-bottom: 25%;
     min-height: 200px;
-    padding: 6% 0;
+    padding: 2.5% 0;
 }
   
 .project-images {
@@ -113,8 +113,8 @@ header {
 }
 
 .icons {
-    margin-left: 2.5%;
-    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 #portfolio-pic {
@@ -122,23 +122,23 @@ header {
 }
 
 #envelope, #linkedin, #github {
-    width: 15%;
+    width: 50%;
 }
 
 #phone {
     width: 13.5%;
 }
 
+
 @media screen and (min-width: 500px) {
     nav {
-        text-align: right;
         position: absolute;
         font-family: 'Oswald', sans-serif;
         background-color: #eae7dc;
-        margin-top: 2.5%;
         font-size: 25px;
+        text-align: right;
     }
-    
+
     li {
         border-right: 1px solid #8e8d8a;
         padding-left: 1.5%;
@@ -161,11 +161,16 @@ header {
         margin-left: 5%;
     }
     
+    .bio {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
     .project-container {
         border: 1px solid #e98074;
         height: 675px;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .project-images {
@@ -178,10 +183,6 @@ header {
         margin: 0 2.5%;
   }
 
-    .icons {
-        margin-left: 5%;
-        padding-left: 5%;
-    }
 
 }
 
@@ -189,8 +190,8 @@ header {
     #portfolio-pic {
         display: block;
         float: right;
-        width: 12.5em;
-        height: 17.5em;
+        width: 10em;
+        height: 15em;
         margin-right: 7.5%;
         border-radius: 5%;
     }
