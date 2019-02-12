@@ -18,6 +18,8 @@ body {
     font-size: 20px;
     color: #8e8d8a;
     line-height: 1.75;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 h3 {
@@ -42,7 +44,6 @@ nav {
     right: 0;
     left: 0;
     background-color: #d8c3a5;
-    text-align: center;
 }
 
 li {
@@ -64,6 +65,9 @@ a:hover, #font-credit:hover {
     color: #e85a4f;
 }
 
+button:hover {
+    cursor: pointer;
+}
 
 .title {
     font-family: 'Vast Shadow', sans-serif;
@@ -97,6 +101,7 @@ a:hover, #font-credit:hover {
 
 .project-container {
     border: 1px solid #e98074; 
+    margin: 1.5% 10%
 }
 
 .project-card {
@@ -129,6 +134,13 @@ a:hover, #font-credit:hover {
     width: 13.5%;
 }
 
+@media screen and (max-width: 500px) {
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+    }
+}
 
 @media screen and (min-width: 500px) {
     nav {
@@ -160,7 +172,7 @@ a:hover, #font-credit:hover {
         text-align: left;
         margin-left: 5%;
     }
-    
+
     .bio {
         margin-left: 12.5%;
         margin-right: 12.5%;
