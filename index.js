@@ -1,3 +1,9 @@
+window.addEventListener('load', showPage, false);
+
+function showPage() {
+    document.body.className = document.body.className.replace("js-loading","");
+}
+
 $(".jumper").on("click", function(e) {
     
     e.preventDefault();

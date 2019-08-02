@@ -5,35 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Arman Bhimani</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
 </head>
 <body>
-    <header role="navigation/title">
-        <nav class="navigation">
+    <section role="banner" class='header-content'>
+        <header id='titles'>
+            <h1 class="header-title animate-pop-in">ARMAN BHIMANI</h1>
+            <h2 class="header-subtitle animate-pop-in">Full-stack Developer</h2>
+        </header>
+        <section class="down-arrow">
+            <img src="./imgs/icons8-ios-filled-100.png" id='down-arrow-img'>
+        </section>
+    </section>
+    <header class="navigation" role="navigation/title">
+        <nav>
             <ul class="nav-bar">
                 <li><a class="jumper" href=".bio">Bio</a></li>
                 <li><a class="jumper" href=".projects">Projects</a></li>
                 <li><a class="jumper" href=".contact">Contact</a></li>
             </ul>
         </nav>
-        <section role="banner" class="title">
-            <h1>ARMAN BHIMANI</h1>
-            <h2>Full-stack Developer</h2>
-        </section>
     </header>
     <main role="main">
-        <section role="bio" class="bio">
-            <h3>Bio</h3>
-            <p>I am a current student at Thinkful doing the full-stack boot camp program. I am an avid programmer that loves solving problems! The harder the problems the better. 
-                I am passionate programming both on the front-end and back-end. However, I have a burning passion for front-end development. It is so cool to visually see the ideas I have coming to life!</p>
-            <p>My hobbies outside of coding are taking long walks with my dog, reading, and spending time with loved ones. I  also love helping other people (code and just life).
-                 I am very passionate about leading people. It not only makes me feel good but also reinforces my own learning!</p>
+        <section class='about-section'>
+            <h2 id='about-title'>About</h2>
+            <aside role="bio" class="bio">
+                <h3 id='bio-title'>Who is Arman Bhimani?</h3>
+                <p>I am a full-stack developer that loves solving problems! The harder the problems the better. 
+                    I am passionate about programming both on the front-end and back-end. However, I have a burning passion for front-end development. It is so cool to visually see the ideas I have coming to life!</p>
+                <p>My hobbies outside of coding are taking long walks with my dog, reading, and spending time with loved ones. I  also love helping other people (code and just life).
+                    It not only makes me feel good, but also reinforces my own learning!</p>
+            </aside>
+            <main class='skills-section'>
+                <h3 id='skills-title'>Skills</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>React</p>
+                <p>Node.js</p>
+                <p>PosgreSQL</p>
+                <p>Testing (Mocha, Chai, Karma)</p>
+            </main>
         </section>
         <section role="projects" class="projects">
-            <h3>Projects</h3>
+            <h2>Projects</h2>
             <section class="grid-container">
                 <section class="project-container">
                     <img src="./imgs/Quiz-App/NFL-Knowledge-Tester-Main-Screen.PNG" class="project-images" />
