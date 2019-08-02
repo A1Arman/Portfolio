@@ -19,10 +19,6 @@ h2 {
     font-size: 3rem;
 }
 
-p {
-    width: 55ch;
-}
-
 .navigation {
     position: sticky;
     position: -webkit-sticky;
@@ -79,6 +75,7 @@ img {
 .bio, .skills-section {
     display: grid;
     justify-content: center;
+    width: 100%;
 }
 
 
