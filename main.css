@@ -72,12 +72,15 @@ img {
     display: grid;
 }
 
-.bio, .skills-section {
+.bio {
     display: grid;
     justify-content: center;
-    width: 100%;
 }
 
+.skills-section {
+    display: grid;
+    justify-content: center;
+}
 
 #about-title, #skills-title {
     margin-top: 20px;
