@@ -16,7 +16,7 @@ body {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .navigation {
@@ -47,7 +47,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    margin-inline-start: 3rem;
+    margin-inline-start: 2rem;
     padding: 1.4rem 1.6rem;
     text-decoration: none;
 }
@@ -169,6 +169,10 @@ footer {
 #contact-title {
     text-align: center;
     margin: 1rem auto;
+}
+
+#first-link {
+    margin-inline-start: 5rem;
 }
 
 #project-title {
