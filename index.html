@@ -10,10 +10,10 @@
 </head>
 <body>
     <section role="banner" class='header-content'>
+        <canvas id="main-canvas"></canvas>
         <header id='titles'>
             <h1 class="header-title animate-pop-in">ARMAN BHIMANI</h1>
             <h2 class="header-subtitle animate-pop-in">Full-stack Developer</h2>
-            <h2>UNDER CONSTRUCTION</h2>
         </header>
         <section class="down-arrow">
             <img src="./imgs/icons8-ios-filled-100.png" id='down-arrow-img'>
@@ -33,56 +33,79 @@
             <h2 id='about-title'>About</h2>
             <aside role="bio" class="bio">
                 <h3 id='bio-title'>Who is Arman Bhimani?</h3>
-                <p>I am a full-stack developer that loves solving problems! The harder the problems the better. 
+                <p class="bio-content">I am a full-stack developer that loves solving problems! The harder the problems the better. 
                     I am passionate about programming both on the front-end and back-end. However, I have a burning passion for front-end development. It is so cool to visually see the ideas I have coming to life!</p>
-                <p>My hobbies outside of coding are taking long walks with my dog, reading, and spending time with loved ones. I  also love helping other people (code and just life).
+                <p class="bio-content">My hobbies outside of coding are taking long walks with my dog, reading, and spending time with loved ones. I  also love helping other people (code and just life).
                     It not only makes me feel good, but also reinforces my own learning!</p>
             </aside>
             <main class='skills-section'>
                 <h3 id='skills-title'>Skills</h3>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>React</p>
-                <p>Node.js</p>
-                <p>PosgreSQL</p>
-                <p>Testing (Mocha, Chai, Karma)</p>
+                <img src="./imgs/Icons/iconfinder_html5_252093.svg">
+                <img src="./imgs/Icons/icons8-css3.svg" id='css3-icon'>
+                <img src="./imgs/Icons/iconfinder_js_282802.svg">
+                <img src="./imgs/Icons/iconfinder_React.js_logo_1174949.svg">
+                <img src="./imgs/Icons/iconfinder_nodejs-new-pantone-black_1012818.svg">
+                <img src="./imgs/Icons/iconfinder_postgresql_4691328.svg">
             </main>
         </section>
         <section role="projects" class="projects">
-            <h2>Projects</h2>
+            <h2 id="project-title">Projects</h2>
             <section class="grid-container">
-                <section class="project-container">
-                    <img src="./imgs/Quiz-App/NFL-Knowledge-Tester-Main-Screen.PNG" class="project-images" />
+                <section class="project-container project1">
+                    <h4 class="project-name">SoberFriends</h4>
+                    <img src="./imgs/Landing.PNG" class="project-images" />
                     <section class="project-card">
-                        <h4>NFL Knowledge Tester</h4>
-                        <p>The NFL Knowledge Tester has a series of questions that test your knowledge on the NFL and its players.</p>
-                        <a href="https://a1arman.github.io/Quiz-App/" ><button class="live">View project</button></a>
-                        <a href="https://github.com/A1Arman/Quiz-App"><button class="repo">Look at Code</button></a>
+                        <p class="project-desc">SoberFriends aims to help people quit their addiction by tracking their progress, and having a community of people going through the same thing for support.</p>
+                        <section class='project-skills'>
+                            <h4 id="tech-used">Technologies Used</h4>
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_html5_252093.svg">
+                            <img class='project-tech' src="./imgs/Icons/icons8-css3.svg" id='css3-icon'>
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_js_282802.svg">
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_React.js_logo_1174949.svg">
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_nodejs-new-pantone-black_1012818.svg">
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_postgresql_4691328.svg">
+                        </section>
+                        <a href="https://soberfriends.herokuapp.com/" ><button class="live"><span>View project</span></button></a>
+                        <a href="https://github.com/A1Arman/SoberFriends"><button class="repo"><span>Look at Code</span></button></a>
                     </section>
                 </section>
-                <section class="project-container">
-                    <img src="./imgs/WeatherorNot/WeatherorNot-Main.PNG" class="project-images" />
-                    <section class="project-card">
-                        <h4>WeatherorNot</h4>
-                        <p>Search a city and get results back for the weather and events happening in that city!</p>
-                        <a href="https://a1arman.github.io/WeatherorNot/" ><button class="live">View project</button></a>
-                        <a href="https://github.com/A1Arman/WeatherorNot"><button class="repo">Look at Code</button></a>
-                    </section>
-                </section>
-                <section class="project-container">
+                <section class="project-container project2">
+                    <h4 class="project-name">Dream-Dogs</h4>
                     <img src="./imgs/Dream-Dogs/Capture.PNG" class="project-images" />
                     <section class="project-card">
-                        <h4>Dream-Dogs</h4>
-                        <p>Dream-Dogs helps owners struggling to provide for their dogs to find a safe new home.</p>
-                        <a href="https://dream-dogs-client.herokuapp.com/" ><button class="live">View project</button></a>
-                        <a href="https://github.com/A1Arman/Dream-Dogs-Client"><button class="repo">Look at Code</button></a>
+                        <p class="project-desc">Dream-Dogs helps owners struggling to provide for their dogs to find a safe new home.</p>
+                        <section class='project-skills'>
+                            <h4 id="tech-used">Technologies Used</h4>
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_html5_252093.svg">
+                            <img class='project-tech' src="./imgs/Icons/icons8-css3.svg" id='css3-icon'>
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_js_282802.svg">
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_React.js_logo_1174949.svg">
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_postgresql_4691328.svg">
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_nodejs-new-pantone-black_1012818.svg">
+                        </section>
+                        <a href="https://dream-dogs-client.herokuapp.com/" ><button class="live"><span>View project</span></button></a>
+                        <a href="https://github.com/A1Arman/Dream-Dogs-Client"><button class="repo"><span>Look at Code</span></button></a>
+                    </section>
+                </section>
+                <section class="project-container project3">
+                    <h4 class="project-name">WeatherorNot</h4>
+                    <img src="./imgs/WeatherorNot/WeatherorNot-Main.PNG" class="project-images" />
+                    <section class="project-card">
+                        <p class="project-desc">Search a city and get results back for the weather and events happening in that city!</p>
+                        <section class='project-skills'>
+                            <h4 id="tech-used">Technologies Used</h4>
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_html5_252093.svg">
+                            <img class='project-tech' src="./imgs/Icons/icons8-css3.svg" id='css3-icon'>
+                            <img class='project-tech' src="./imgs/Icons/iconfinder_js_282802.svg">
+                        </section>
+                        <a href="https://a1arman.github.io/WeatherorNot/" ><button class="live"><span>View project</span></button></a>
+                        <a href="https://github.com/A1Arman/WeatherorNot"><button class="repo"><span>Look at Code</span></button></a>
                     </section>
                 </section>
             </section>
         </section>
         <section role="contact" class="contact">
-            <h3>Contact</h3>
+            <h2 id="contact-title">Contact</h2>
             <section class="icons">
                 <a href="https://github.com/A1Arman"><img src="./imgs/Icons/Github.svg" id="github"></a>
                 <a href="https://github.com/A1Arman"><img src="./imgs/Icons/linkedin.svg" id="linkedin"></a>
@@ -91,9 +114,9 @@
         </section>
     </main>
     <footer role="contentinfo">
-        <p>Design by: Arman Bhimani</p>
         <p>Icons Designed by <a href="https://fontawesome.com/" class="font-credit">Font-Awesome</a></p>
     </footer>
+    <script type="text/javascript" src="https://unpkg.com/pts@0.8.7/dist/pts.js"></script>
     <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
