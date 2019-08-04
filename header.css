@@ -3,7 +3,11 @@
     justify-content: center;
     text-align: center;
     height: 86vh;
-    background: url('./imgs/nathan-anderson-VIyKoLhFahA-unsplash.jpg');
+    background: linear-gradient(
+        to right bottom, 
+        rgba(70, 70, 70, 0.712), 
+        rgba(0, 0, 0, 0.712)),
+         url('./imgs/nathan-anderson-VIyKoLhFahA-unsplash.jpg');
     background-size: cover;
     background-position: bottom;
 }
