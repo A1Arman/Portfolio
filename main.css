@@ -117,7 +117,7 @@ footer {
     margin: 1rem 2rem;
 }
 
-#tech-used {
+.tech-used {
     grid-area: skills;
     text-align: center;
 }
@@ -168,7 +168,7 @@ footer {
 
 #contact-title {
     text-align: center;
-    margin: 1rem auto;
+    margin: 4.5rem auto 1rem auto;
 }
 
 #first-link {
@@ -189,7 +189,7 @@ footer {
     grid-area: skills;
 }
 
-#css3-icon {
+.css3-icon {
     margin: 0 auto;
 }
 
