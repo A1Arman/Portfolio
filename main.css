@@ -177,11 +177,11 @@ footer {
 
 #project-title {
     text-align: center;
-    margin: 2rem auto;
+    margin: 4.5rem auto 1rem auto;
 }
 
 #about-title, #skills-title {
-    margin-top: 20px;
+    margin-top: 45px;
     text-align: center;
 }
 
