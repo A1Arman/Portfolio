@@ -191,7 +191,7 @@ footer {
 }
 
 #about-title, #skills-title {
-    margin-top: 45px;
+    margin-top: 55px;
     text-align: center;
 }
 
@@ -255,6 +255,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-areas: "project1 project2 project3";
+        max-width: 975px;
     }
 
     .project1 {
@@ -267,4 +268,14 @@ footer {
     .project2 {
         grid-area: project2;  
     }
+
+    #live-weather, #repo-weather {
+        margin-top: 60px;
+    }
+  }
+
+  @media screen and (min-width: 1030px) {
+      .grid-container {
+          max-width: initial;
+      }
   }
